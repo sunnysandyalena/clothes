@@ -1,0 +1,78 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+}
+body {
+  background-color: rgb(255, 218, 205);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.back {
+  background-color: rgb(255, 218, 205); 
+  color: rgb(28, 21, 37);
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+.btn {
+
+  background-color: transparent;
+  color: rgb(28, 21, 37);
+  padding: 10px;
+  border: 2px solid rgb(28, 21, 37);
+  font-family: 'Encode Sans', sans-serif;
+}
+
+h3, h4 {
+  font-family: 'Encode Sans', sans-serif;
+  color: rgb(28, 21, 37 );
+}
+
+button {
+  margin: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+  background-color: rgb(28, 21, 37);
+}
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: bolder;
+  color:rgb(255, 218, 205);
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: 'Encode Sans', sans-serif;
+  color: rgb(28, 21, 37 );
+}
+ul {
+  list-style: none;
+  font-weight: bolder;
+  font-size: 20px;
+}
+li {
+  padding: 10px;
+}
+.text {
+  font-size: 20px;
+  width: 80%;
+}
